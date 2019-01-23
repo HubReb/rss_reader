@@ -4,9 +4,10 @@ rss\_reader
 ## Overview
 
 rss\_reader is a simple script implementing a basic rss feed notification
-system. This was a small project to get a bit mora familiar with psycopg2.
+system. This was a small project to get more familiar with psycopg2.
 If you're looking for a good rss reader, you could install the
 gnome-extension RSS Feed or use one packaged for your distribution.
+
 The idea is directly taken from this article: [1]
 Unlike the original implementation this script uses a postgresql database,
 a desktop notification and a command line interface.
@@ -41,6 +42,6 @@ to get a complete listing of all possible options.
 
 [1] https://fedoramagazine.org/never-miss-magazines-article-build-rss-notification-system/
 and the corresponding code on github:
-`https://github.com/cverna/rss_feed_notifier`
+https://github.com/cverna/rss_feed_notifier
 
 
